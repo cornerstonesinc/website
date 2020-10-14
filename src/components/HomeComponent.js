@@ -180,24 +180,24 @@ function Home() {
                     <CardDeck className="phont" style={{paddingBottom:"20px"}}>
                         <Card>
                             <CardBody>
-                                <CardTitle>Interior</CardTitle>
-                                <CardSubtitle>Choose from lots</CardSubtitle>
+                                {/*<CardTitle>Interior</CardTitle>*/}
+                                {/*<CardSubtitle>Choose from lots</CardSubtitle>*/}
                                 <CardText>We provide a wide range of services for interior design. visit our page to check yourself. </CardText>
                                 <Button color='primary'>Interior</Button>
                             </CardBody>
                         </Card>
                         <Card>
                             <CardBody>
-                                <CardTitle>Architecture</CardTitle>
-                                <CardSubtitle>Wide range</CardSubtitle>
+                                {/*<CardTitle>Architecture</CardTitle>*/}
+                                {/*<CardSubtitle>Wide range</CardSubtitle>*/}
                                 <CardText>We have a strong and reliable team to provide you our design. Do check this section.</CardText>
                                 <Button color='primary' >Architecture</Button>
                             </CardBody>
                         </Card>
                         <Card>
                             <CardBody>
-                                <CardTitle>Property</CardTitle>
-                                <CardSubtitle>Near by</CardSubtitle>
+                                {/*<CardTitle>Property</CardTitle>*/}
+                                {/*<CardSubtitle>Near by</CardSubtitle>*/}
                                 <CardText>Nearby property that you can buy. You will be notified as soon as new property is available.</CardText>
                                 <Button color='primary' href="tel:8269874598">Properties</Button>
                             </CardBody>
