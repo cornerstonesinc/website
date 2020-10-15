@@ -1,4 +1,11 @@
 import React from "react";
+import ongoing1 from "../assets/pics/ongoing1.jpg";
+import ongoing2 from "../assets/pics/ongoing3.jpg";
+import ongoing3 from "../assets/pics/ongoing3.jpg";
+import "../App.css"
+
+
+
 function Onproject()
 {
     return(
@@ -12,35 +19,38 @@ function Onproject()
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 order-2 order-lg-1">
-                            <h2>Project Heading</h2>
-                            <p>Type of Project</p>
-                            <p>A small description about the project and few details that are to be included with new
-                            a small message concerned with it.</p>
-                            <p>Address: some street somewhere.</p>
+                            <h2>Two Storey Home</h2>
+                            <p>Residential</p>
+                            <p>A 600 sq.ft. two storey home is under construction.</p>
+                            <p>Sironj-Vidisha-MP</p>
+                            <h4>Services Requested</h4>
                             <table className="table mt-5 mb-4 responsive">
                                 <tbody>
                                 <tr>
-                                    <td>Item one</td>
-                                    <td className="text-right">First value</td>
+                                    <td>2D Map</td>
+                                    <td className="text-right">Completed</td>
                                 </tr>
                                 <tr>
-                                    <td>Item two</td>
-                                    <td className="text-right">Second value</td>
+                                    <td>3D Elevation</td>
+                                    <td className="text-right">Completed</td>
+                                </tr>
+                                <tr>
+                                    <td>Construction</td>
+                                    <td className="text-right">In-porgress</td>
                                 </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div className="col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0">
-                            <img className="img-fluid" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=867&q=80" alt=""/>
-                                <div className="d-flex justify-content-between w-100 mt-4">
+                        <div className="col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0 ongoing_image">
+                            <img className="img-fluid" src={ongoing1} alt=""/>
+                                <div className="d-flex justify-content-between w-100 mt-4 ongoing_images">
                                     <div className="p-0">
-                                        <img className="w-100" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=867&q=80" alt=""/>
+                                        <img className="w-100" src={ongoing2} alt=""/>
                                     </div>
                                     <div className="p-0 mx-4">
-                                        <img className="w-100" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=867&q=80" alt=""/>
+                                        <img className="w-100" src={ongoing3} alt=""/>
                                     </div>
-                                    <div className="p-0"><img className="w-100" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=867&q=80" alt=""/>
-                                    </div>
+
                                 </div>
                         </div>
                     </div>

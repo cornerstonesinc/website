@@ -145,6 +145,25 @@
   text-align: center;
 }
 
+/*css for about us page*/
+.about_office{
+  text-align: center;
+}
+
+/*css for ongoing page*/
+
+.ongoing_image{
+  border: black;
+  border-radius: 20px;
+}
+
+.ongoing_images img{
+  width: 100%;
+  height: 200px;
+  border: black;
+}
+
+
 
 
 

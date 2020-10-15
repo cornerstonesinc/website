@@ -11,7 +11,8 @@ import des from "../assets/undraw/design_components.svg";
 import logoM from "../assets/undraw/logoM.png";
 import finance from "../assets/undraw/personal_finance.svg";
 import respond from "../assets/undraw/respond.svg";
-import map from "../assets/undraw/map.svg";
+import map from "../assets/undraw/map.jpeg";
+import "../App.css"
 
 
 function About() {
@@ -147,24 +148,17 @@ function About() {
                     To be one of the biggest triune company for the upcoming foreign investments in the country.</p>
 
             </div>
-            <div className="container space">
+            <div className="container space about_office">
                 <text style={{fontSize: 30}}>Head Office</text>
                 <p>Always available contact us at any time. we are more then happy to help.</p>
-                <div className="row">
-                    <div className="col-12 col-md-6">
-                        <img className="img-fluid" src={map} alt="map"/>
-                    </div>
-                    <div className="col-12 col-md-6">
-                        <Card>
-                            <CardBody>
-                                <CardTitle>Address</CardTitle>
-                                <CardSubtitle>Meet us in Person</CardSubtitle>
-                                <CardText>Chhatri Naka-Hanuman Path <br/> Sironj-Visisha-MP PIN: 464228</CardText>
-                                <Button color="primary" href="tel:8269874598">Call Us</Button>
-                            </CardBody>
-                        </Card>
-                    </div>
-                </div>
+                <Card>
+                    <CardBody>
+                        <CardTitle>Address</CardTitle>
+                        <CardSubtitle>Meet us in Person</CardSubtitle>
+                        <CardText>Chhatri Naka-Hanuman Path <br/> Sironj-Visisha-MP PIN: 464228</CardText>
+                        <Button color="primary" href="tel:8269874598">Call Us</Button>
+                    </CardBody>
+                </Card>
             </div>
         </div>
     )

@@ -9,7 +9,9 @@ function App() {
   return (
       <ParallaxProvider>
       <HashRouter>
+
           <div className="App">
+
               <Main />
           </div>
       </HashRouter>
