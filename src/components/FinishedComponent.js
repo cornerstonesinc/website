@@ -27,17 +27,22 @@ function Finproject()
                             <h2>Duplex House</h2>
                             <p>Architectural</p>
                             <p>A duplex house with its architectural plan with proper design and planning. It has various
-                                elements and Customer wae very pleased.</p>
-                            <p>Address: Sironj</p>
+                                elements and Customer was very pleased.</p>
+                            <p>Address: Sironj city-Vidisha-MP</p>
+                            <h4>Services Requested</h4>
                             <table className="table mt-5 mb-4 responsive">
                                 <tbody>
                                 <tr>
-                                    <td>Item one</td>
-                                    <td className="text-right">First value</td>
+                                    <td>2D Map</td>
+                                    <td className="text-right">Completed</td>
                                 </tr>
                                 <tr>
-                                    <td>Item two</td>
-                                    <td className="text-right">Second value</td>
+                                    <td>Elevation</td>
+                                    <td className="text-right">Completed</td>
+                                </tr>
+                                <tr>
+                                    <td>3D Visualization</td>
+                                    <td className="text-right">Completed</td>
                                 </tr>
                                 </tbody>
                             </table>
