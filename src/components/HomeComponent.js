@@ -223,22 +223,22 @@ function Home() {
                                 <div className="col-md-3 mb-4">
                                     <h5>Woodwork</h5>
                                     <p>A small extra service included in our package.</p>
-                                    <a href="/interior" role="button">Read more</a>
+                                    <a href="/website/#/interior" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
                                     <h5>Wallpapers</h5>
                                     <p>Decide from our previous works.</p>
-                                    <a href="/interior" role="button">Read more</a>
+                                    <a href="/website/#/interior" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
                                     <h5>Presentable</h5>
                                     <p>We emphasise on aesthetics as well.</p>
-                                    <a href="/interior" role="button">Read more</a>
+                                    <a href="/website/#/interior" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
                                     <h5>Speed</h5>
                                     <p>We are efficient, fast and reliable.</p>
-                                    <a href="/interior" role="button">Read more</a>
+                                    <a href="/website/#/interior" role="button">Read more</a>
                                 </div>
                             </div>
                         </div>
