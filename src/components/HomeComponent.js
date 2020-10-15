@@ -211,7 +211,7 @@ function Home() {
                                         className="card-img-overlay d-flex justify-content-center align-items-center flex-column">
                                         <h3 className="card-title">Future of the Interior</h3>
                                         <p className="card-text">A very promising and very contempt service for interior designs.</p>
-                                        <a className="btn btn-primary btn-raised" href="/interior">Check Our Work!</a>
+                                        <a className="btn btn-primary btn-raised" href="/#/interior">Check Our Work!</a>
                                     </div>
                             </div>
                         </div>

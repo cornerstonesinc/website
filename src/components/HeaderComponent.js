@@ -21,7 +21,7 @@ function Header() {
         return (
             <div>
                 <Navbar className="nb fixed-top" dark expand="md">
-                    <NavbarBrand href="/">Cornerstones</NavbarBrand>
+                    <NavbarBrand href="/#/home">Cornerstones</NavbarBrand>
                     <NavbarToggler onClick={toggle}/>
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
