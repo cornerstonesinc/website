@@ -94,7 +94,7 @@ function About() {
                                 <h3 className="mb-3 font-weight-normal">Architecture</h3>
                                 <p className="lead">Join our network, but build and manage everything yourself.</p>
                                 <p className="my-4">Reasonably<small className="text-muted"> Priced</small></p>
-                                <a className="btn btn-lg btn-outline-primary" type="button" href="/architecture">Visit
+                                <a className="btn btn-lg btn-outline-primary" type="button" href="/website/#/architecture">Visit
                                     Architecture</a>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ function About() {
                                 <h3 className="mb-3 font-weight-normal">Interior</h3>
                                 <p className="lead">We build what you need, but you still need to manage your data.</p>
                                 <p className="my-4">Reasonably<small className="text-muted"> Priced</small></p>
-                                <a className="btn btn-lg btn-outline-primary" href="/interior" type="button">Contact
+                                <a className="btn btn-lg btn-outline-primary" href="/website/#/interior" type="button">Contact
                                     Sales</a>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ function About() {
                                 <h3 className="mb-3 font-weight-normal">Woodwork</h3>
                                 <p className="lead">We do everything for you, including managing your data.</p>
                                 <p className="my-4">Reasonably<small className="text-muted"> Priced</small></p>
-                                <a className="btn btn-lg btn-outline-primary" href="/interior" type="button">Contact
+                                <a className="btn btn-lg btn-outline-primary" href="/website/#/interior" type="button">Contact
                                     Sales</a>
                             </div>
                         </div>
@@ -159,7 +159,7 @@ function About() {
                             <CardBody>
                                 <CardTitle>Address</CardTitle>
                                 <CardSubtitle>Meet us in Person</CardSubtitle>
-                                <CardText>Hanuman Path, Sironj PIN: 464228</CardText>
+                                <CardText>Chhatri Naka-Hanuman Path <br/> Sironj-Visisha-MP PIN: 464228</CardText>
                                 <Button color="primary" href="tel:8269874598">Call Us</Button>
                             </CardBody>
                         </Card>

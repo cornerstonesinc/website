@@ -63,7 +63,7 @@ function Architecture ()
                                 </tr>
                                 </tbody>
                             </table>
-                            <Button color="primary" href="tel:8269874598"> Call Now!</Button> <Button color="primary" href="/finproject"> Check More of our work</Button>
+                            <Button color="primary" href="tel:8269874598"> Call Now!</Button> <Button color="primary" href="/website/#/finproject"> Check More of our work</Button>
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0">
                             <img className="img-fluid" src="https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="0"/>
