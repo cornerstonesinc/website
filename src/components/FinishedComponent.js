@@ -23,7 +23,7 @@ function Finproject()
             <section className="py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 order-2 order-lg-1">
+                        <div className="col-lg-6 order-1 order-lg-1">
                             <h2>Duplex House</h2>
                             <p>Architectural</p>
                             <p>A duplex house with its architectural plan with proper design and planning. It has various
@@ -47,7 +47,7 @@ function Finproject()
                                 </tbody>
                             </table>
                         </div>
-                        <div className="col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0">
+                        <div className="col-lg-6 order-2 order-lg-2 mb-5 mb-lg-0">
                             <img className="img-fluid" src={im12} alt="0"/>
                             <div className="d-flex justify-content-between w-100 mt-4">
                                 <div className="p-0">

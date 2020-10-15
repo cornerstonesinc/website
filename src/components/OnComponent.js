@@ -18,7 +18,7 @@ function Onproject()
             <section className="py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 order-2 order-lg-1">
+                        <div className="col-lg-6 order-1 order-lg-1">
                             <h2>Two Storey Home</h2>
                             <p>Residential</p>
                             <p>A 600 sq.ft. two storey home is under construction.</p>
@@ -41,7 +41,7 @@ function Onproject()
                                 </tbody>
                             </table>
                         </div>
-                        <div className="col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0 ongoing_image">
+                        <div className="col-lg-6 order-2 order-lg-2 mb-5 mb-lg-0 ongoing_image">
                             <img className="img-fluid" src={ongoing1} alt=""/>
                                 <div className="d-flex justify-content-between w-100 mt-4 ongoing_images">
                                     <div className="p-0">
