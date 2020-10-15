@@ -30,15 +30,15 @@ function Footer() {
                             {/*<a className="btn btn-social-icon btn-google" href="http://google.com/+"><i className="fa fa-google-plus"></i></a>*/}
                             <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/111069890654661?referrer=whatsapp"><i className="fa fa-facebook"></i></a>
                             <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i className="fa fa-linkedin"></i></a>
-                            <a className="btn btn-social-icon btn-instagram" href="http://www.instagram.com"><i className="fa fa-instagram"></i></a>
+                            <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/cornerstones_inc/"><i className="fa fa-instagram"></i></a>
                             {/*<a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a>*/}
-                            <a className="btn btn-social-icon" href="3"><i className="fa fa-envelope-o"></i></a>
+                            <a className="btn btn-social-icon" href="mail.google.com"><i className="fa fa-envelope-o"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-auto">
-                        <p><i className="fa fa-copyright" aria-hidden="true"></i> 2020 Cornerstone Inc</p>
+                        <p><i className="fa fa-copyright" aria-hidden="true"></i> 2020 Cornerstones Inc</p>
                     </div>
                 </div>
             </div>

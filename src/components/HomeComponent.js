@@ -173,7 +173,7 @@ function Home() {
                 <div className="row">
                     <p>
                         <h2>Our Features</h2>
-                        Extra services that our company provide.
+                        Extra services that our company provides.
                     </p>
                 </div>
                 <div >
@@ -183,7 +183,7 @@ function Home() {
                                 {/*<CardTitle>Interior</CardTitle>*/}
                                 {/*<CardSubtitle>Choose from lots</CardSubtitle>*/}
                                 <CardText>We provide a wide range of services for interior design. visit our page to check yourself. </CardText>
-                                <Button color='primary'>Interior</Button>
+                                <Button color='primary' href="/website/#/interior">Interior</Button>
                             </CardBody>
                         </Card>
                         <Card>
@@ -191,7 +191,7 @@ function Home() {
                                 {/*<CardTitle>Architecture</CardTitle>*/}
                                 {/*<CardSubtitle>Wide range</CardSubtitle>*/}
                                 <CardText>We have a strong and reliable team to provide you our design. Do check this section.</CardText>
-                                <Button color='primary' >Architecture</Button>
+                                <Button color='primary' href="/website/#/architecture">Architecture</Button>
                             </CardBody>
                         </Card>
                         <Card>
