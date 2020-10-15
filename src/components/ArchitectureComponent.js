@@ -2,6 +2,7 @@ import React from "react";
 import Button from "reactstrap/lib/Button";
 import im11 from "../assets/pics/11.png";
 import im12 from "../assets/pics/12.png";
+import "../App.css"
 
 
 function Architecture ()
@@ -9,7 +10,7 @@ function Architecture ()
     return(
         <div>
             <section className="py-5">
-                <div className="container space">
+                <div className="container space architecture_includes">
                     <h2 className="mb-5 text-center">Map Includes</h2>
                     <div className="card-deck">
                         <div className="card border-0">
@@ -38,15 +39,15 @@ function Architecture ()
             </section>
             <section className="py-5">
                 <div className="container">
-                    <div className="row">
+                    <div className="row architectural_plan">
                         <div className="col-lg-6 order-2 order-lg-1">
                             <h2>Architectural Plan </h2>
                             <p>Includes</p>
                             <ul className="list-inline d-flex flex-column flex-sm-row align-items-center nav nav-pills mt-5 mb-4">
                                 <li className="nav-item d-flex nav-link active">Vastu Oriented</li>
                             </ul>
-                            <p>Our plans include every niche details and every important factor needed for the help with
-                            new and important features added and every details very precisely added as per your demands.</p>
+                            <p>Our plans include every minor and precise elements needed
+                                and every detail is very precisely added as per your demands.</p>
                             <table className="table mt-5 mb-4 responsive">
                                 <tbody>
                                 <tr>
@@ -77,7 +78,7 @@ function Architecture ()
                 </div>
             </section>
             <section className="py-5">
-                <div className="container text-center">
+                <div className="container text-center architecture_works">
                     <h2 className="mb-5">Our Works</h2>
                     <div className="row">
                         <div className="col-md-6 mb-4">

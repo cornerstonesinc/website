@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function getSteps() {
-    return ['Contact Us!', 'We will provide best Service.', 'Keep you updated.'];
+    return ['Contact Us!', 'We present to you our project idea','Project Deal finalisation', 'We Keep you updated on the progress of the project.','Project Completion'];
 }
 
 function getStepContent(stepIndex) {

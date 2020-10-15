@@ -8,6 +8,7 @@ import im2 from "../assets/pics/2.jpeg";
 import im3 from "../assets/pics/3.jpeg";
 import im4 from "../assets/pics/4.jpeg";
 import im6 from "../assets/pics/6.jpeg";
+import "../App.css";
 
 
 
@@ -26,8 +27,8 @@ function Interior() {
                     <a className="btn btn-primary btn-raised mt-2 mr-2" href="tel:8269874598">Call for Interior Designer</a>
                 </div>
             </section>
-            <div className="container">
-                <h3 className="display-5 mt-5">Our services Includes</h3>
+            <div className="container interior_services">
+                <h3 className="display-5 mt-5">Our services Include</h3>
                 <div className="row space phont">
                     <div className="col-md-4 mb-4">
                         <Card>
@@ -99,22 +100,17 @@ function Interior() {
             </section>
             <section className="py-5">
                 <div className="container text-center">
-                    <h2 className="mb-5">Great Costumers that already use Cornerstones</h2>
                     <div className="carousel slide">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <div>
-                                    <img className="img-fluid" src={im8} alt=""/>
-                                    <div className="row d-none d-md-block">
-                                        <img className="col-4 p-3" src={im1} alt=""/>
-                                        <img className="col-4 p-3" src={im5} alt=""/>
-                                        <img className="col-4 p-3" src={im7} alt=""/>
-                                        {/*<img className="col-3 p-3" src={im9} alt=""/>*/}
+                                    <div>
+                                        <h3 className="mt-5">We deliver as promised.</h3>
+                                        <p className="lead">We are constantly looking for new partners to migrate onto
+                                            the Net. The future of the internet is here - venture towards it with
+                                            Cornerstones!</p>
                                     </div>
-                                    <h3 className="mt-5">We deliver as promised.</h3>
-                                    <p className="lead">We are constantly looking for new partners to migrate onto
-                                        the Net. The future of the internet is here - venture towards it with
-                                        Cornerstones!</p>
+
                                 </div>
                             </div>
 
@@ -126,7 +122,7 @@ function Interior() {
             <section className="py-5">
                 <div className="container text-center">
                     <h2 className="mb-5">Our Works</h2>
-                    <div className="row">
+                    <div className="row interior_works">
                         <div className="col-md-4 mb-4">
                             <img className="img-fluid" src={im1} alt=""/>
                         </div>
@@ -143,7 +139,7 @@ function Interior() {
                             <img className="img-fluid" src={im0} alt=""/>
                         </div>
                         <div className="col-md-4 mb-4">
-                            <img className="img-fluid" src={im6} alt=""/>
+                            <img className="img-fluid" src={im8} alt=""/>
                         </div>
                     </div>
                 </div>

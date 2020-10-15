@@ -22,17 +22,17 @@ function Footer() {
                             Sironj-Vidisha-MP<br />
                             <i className="fa fa-phone fa-lg"></i>: +91 8269874598<br />
                             <i className="fa fa-mobile fa-lg"></i>: +91 9826109598<br />
-                            <i className="fa fa-envelope fa-lg"></i>: <a href="3">cornerstones.in@gmail.com</a>
+                            <i className="fa fa-envelope fa-lg"></i>: <a href="https://google.com/gmail">cornerstones.in@gmail.com</a>
                         </address>
                     </div>
                     <div className="col-12 col-sm-4 align-self-center">
                         <div className="text-center">
                             {/*<a className="btn btn-social-icon btn-google" href="http://google.com/+"><i className="fa fa-google-plus"></i></a>*/}
                             <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/111069890654661?referrer=whatsapp"><i className="fa fa-facebook"></i></a>
-                            <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i className="fa fa-linkedin"></i></a>
+                            <a className="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/"><i className="fa fa-linkedin"></i></a>
                             <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/cornerstones_inc/"><i className="fa fa-instagram"></i></a>
                             {/*<a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a>*/}
-                            <a className="btn btn-social-icon" href="mail.google.com"><i className="fa fa-envelope-o"></i></a>
+                            <a className="btn btn-social-icon" href="https://google.com/gmail"><i className="fa fa-envelope-o"></i></a>
                         </div>
                     </div>
                 </div>
